@@ -4,9 +4,6 @@ import { ui } from './ui.js';
 
 const productsURL = 'https://6136452c8700c50017ef5509.mockapi.io/products';
 
-let refreshCart = document.getElementById('refreshCart');
-refreshCart.addEventListener('click', () => {location.reload()})
-
 // Local Storage
 let cartLS = [];
 let productsInsideCart = document.getElementById('productsInsideCart');
